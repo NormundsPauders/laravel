@@ -1,0 +1,25 @@
+@import "variables";
+
+.navbar-inverse{
+  background-color: #323232;
+  border-style: none;
+  border-radius: 0px;
+  .navbar-nav{
+   & > li{
+      & > a{
+        color: #ffffff;
+        font-family: "Barlow Condensed", sans-serif;
+        &:hover{
+          background-color: $menu_color;
+          color: #ffffff;
+        }
+        &:focus{
+          background-color: $menu_color;
+          color: #ffffff;
+        }
+      }
+    }
+
+  }
+
+}

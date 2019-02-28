@@ -1,0 +1,107 @@
+.main{
+	margin-top: 50px;
+	color:#fff;
+
+}
+
+main{
+	background-color: orange;
+}
+
+
+
+
+
+.title{
+	text-align: center;
+}
+
+.article{
+	text-align: center;
+}
+
+/* menu class rewrite */
+.navbar-inverse {
+	background-color: #323232;
+	border-style: none;
+	border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: "Barlow Condensed", sans-serif;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #9f2720;
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+	background-color: #9f2720;
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #9f2720;
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #9f2720;
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: #9f2720;
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color: #9f2720;
+	border-color: #9f2720;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #9f2720;
+	border-color: #9f2720;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+	background-color: #9f2720;
+	border-color: #9f2720;
+}
+
+.navbar-brand {
+	padding: 10px;
+}
+
+.navbar-brand img {
+	max-width: 100px;
+}
+
+.gallery{
+    /*max-width: 200px;*/
+}
+
+.maingallery{
+    text-align: center;
+}
+
+#galerija{
+    background-color:#fff;
+}
+
+.btn-primary{
+	background-color: #000000;
+}
+
+footer{
+	background-color: #5bc0de;
+	text-align: center;
+}
