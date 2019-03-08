@@ -17,11 +17,13 @@
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 
 Route::get('/','NewsController@showNews');
 Route::get('/welcome','MainController@welcome');
+
+
 Route::get('/category','MainController@showCategory');
 Route::post('/category','MainController@addCategory');
 
@@ -30,5 +32,14 @@ Route::get('gallery','NewsController@showGallery');
 Route::get('news','NewsController@showNews');
 
 
-Route::get('contacts','NewsController@showContacts');
+Route::get('contacts','NewsController@showMsg');
+
+///ziņu saglabāšana
 Route::post('contacts','NewsController@sendMsg');
+//visas ziņas
+Route::get('allmsg','NewsController@allMsg');
+//ziņu dzēšana
+Route::delete('allmsg','NewsController@deleteMsg');
+///ziņu labošana
+Route::get('editmsg/{id}', 'NewsController@selectCurrentMsg');
+Route::put('allmsg', 'NewsController@updateCurrentMsg');

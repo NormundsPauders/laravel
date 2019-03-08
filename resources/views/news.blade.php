@@ -4,7 +4,9 @@
     <p>Jaunumi:</p>
 @stop
 @section('content')
-    <h4>Kontakti:</h4>
-    <p>Normunds Pauders</p>
+    <h4>Atsauksmes</h4>
+    @foreach($messages as $message => $item)
+        <p>{{ $item['msg_text'] }}</p>
+    @endforeach
 @stop
 

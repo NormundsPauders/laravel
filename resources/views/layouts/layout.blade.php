@@ -28,8 +28,15 @@
                 <ul class="nav navbar-nav  navbar-right">
                     <li><a href="{{ url('/news') }}">Jaunumi</a></li>
                     <li><a href="{{ url('/gallery') }}">Galerija</a></li>
-                    <li><a href="{{ url('/contacts') }}">Kontakti</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Saziņa <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ url('/contacts') }}">Sūtīt ziņu</a></li>
+                            <li><a href="{{ url('/allmsg') }}">Apskatīt visas ziņas</a></li>
+                        </ul>
+                    </li>
                 </ul>
+
             </div>
         </div>
     </nav>

@@ -19,3 +19,7 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+
+#mapju staigasana / index.html
+ErrorDocument 403 /errors/forbidden.html

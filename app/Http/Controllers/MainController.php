@@ -19,7 +19,7 @@ class MainController extends Controller
         Category::create($post_data);
         return redirect()->back();
     }
-    //all
+
     public function showCategory(){
         $categories = Category::all();
         $data = array('categories' => $categories);
